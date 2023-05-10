@@ -1,0 +1,61 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: #a2d2ff;
+    width: 50%;
+    /* height: 400px; */
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 20px;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.container .inputlocal{
+    width: 100%;
+    /* height: 100px; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.container .inputlocal input{
+    width: 70%;
+    height: 50px;
+    padding: 20px;
+    margin-right: 30px;
+    border: none;
+    border-radius: 5px;
+    border-radius: 25px;
+}
+.container .inputlocal .iconsearch{
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    color: violet;
+    /* border: 1px solid red;
+    border-radius: 50%; */
+}
+
+.info{
+    width: 100%;
+    display: flex;
+}
+.infoleft{
+    width: 50%;
+}
+.icon{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon img{
+    width: 150px;
+}
