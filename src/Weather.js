@@ -24,8 +24,11 @@ export default function Weather() {
   }, []);
   console.log(data);
   return (
+    <div className="con">
     <div className="container">
+    <h1>WEATHER</h1>
       <div className="inputlocal">
+
         <input
           type="text"
           value={text}
@@ -62,7 +65,7 @@ export default function Weather() {
           <div className="info">
             <div className="infoleft">
               <h1>Country {data.sys.country}</h1>
-              <h1>Temp {data.main.temp}</h1>
+              <h1>Temp {data.main.temp} °C | </h1>
               <h1>Temp {data.weather[0].description}</h1>
             </div>
             <div className="icon">
@@ -73,6 +76,7 @@ export default function Weather() {
           </div>
         </>
       )}
+    </div>
     </div>
   );
 }
